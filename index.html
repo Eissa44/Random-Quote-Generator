@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Poppins Font path -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Itim Font path-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/quote_social_icon.png" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>JS Random Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quote d-flex flex-column align-items-center text-center">
+        <h1 class="text-capitalize">
+          <span>Q</span>uote <span>o</span>f <span>t</span>he <span>D</span>ay
+        </h1>
+        <p class="press w-100">
+          Press the button below to recieve a random quote!
+        </p>
+        <button class="btn py-3 my-4 fs-2" onclick="generateQuotes()">
+          New Quote
+        </button>
+      </div>
+      <div
+        class="quot-div shadow h-100 mx-auto border border-1 rounded text-center position-relative p-4"
+      >
+        <p id="quote-par" class="fs-3">What's life without a little risk?</p>
+        <h3 id="quote-author">— Sirius black</h3>
+      </div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
